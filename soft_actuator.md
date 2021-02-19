@@ -14,6 +14,18 @@ __Below are process shots of making the actuator.__
 
 #### Molding
 
+![mixing](/imgs/mix.jpg)
+Silicon being mixed prior to pouring
+
+
+![mold](/imgs/mold.jpg)
+Silicon poured into mold
+
+
+![mold2](/imgs/mold_2.jpg)
+Both molds shown after pouring
+
+
 #### Demolding/Wrapping
 
 #### Testing
