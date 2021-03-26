@@ -18,6 +18,11 @@ I used Onshape for the first time and things went fairly smoothly. Here you can 
 Onshape document is accessible [here](https://cad.onshape.com/documents/6f352d48eca456fbdbae621a/w/bccaf78306accf773a53e14a/e/fe7400344ade2ad432e31a1a)
 ![cad](/imgs/finger/cad.png)
 
+Key dimensions of actuator:
+- All walls are 2mm thick
+- Overall dimaeter of actuator is ~20mm (arbitrarily deciced to ease demolding)
+- Length was set to 75mm (arbitraily  chosen as long enough to allow for flexing and small enough to print and minimize waste)
+
 Notable design considerations:
 - 3d print molds instead of using cardboard
 - Mold in multiple steps as opposed to a single step so thatdon't have to deal with mold extraction problems
