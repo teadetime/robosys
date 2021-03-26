@@ -75,13 +75,19 @@ Green 6.5lbs to 90\*rotation
 Two chambers at once: 10lbs (less angle)
 
 Area of plunger:
-.75” radius^2* pi = 1.767” inches square 
+.75” radius^2* pi = **1.767”** inches squared 
 
 PSI Calculation:
+
 Orange: 4.2psi
+
 Blue: 3.11psi
+
 Green: 3.67psi
+
 Two chambers at the same time: 3psi for each chamber (this had less rotation than the single chambers)
+
+**What this means**
 
 When converted to kPA, these values are all less than 35 kPa. This is less than the actuation pressure for the previous wrapped actuator and fabric-pneumatic actuator as well as pressures reported for some Pneumnets.
 
@@ -90,10 +96,10 @@ The actuator is easiest to actuate along one of the 3 cardinal directions. This 
 
 ### Lessons Learned
 ---
-Molding is hard!
-Circular molds are especially difficult
-3d printing isn’t always the answer, A cardboard mold could have been made as well
-Single use molds are an option-- THis could have saved me a lot of time since it was hard to print parts
+- Molding is hard!
+- Circular molds are especially difficult
+- 3d printing isn’t always the answer, A cardboard mold could have been made as well
+- Single use molds are an option-- this could have saved me a lot of time since it was hard to print parts
 
 
 #### Works Cited
