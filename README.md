@@ -96,10 +96,11 @@ The actuator is easiest to actuate along one of the 3 cardinal directions. This 
 
 ### Lessons Learned
 ---
-- Molding is hard!
+- Molding is hard and mold complexity shoul dbe minimized (molding and mold design took 90% of my time)
 - Circular molds are especially difficult
-- 3d printing isn’t always the answer, A cardboard mold could have been made as well
+- 3d printing isn’t always the answer, A cardboard mold could have been made as well and sped up my process
 - Single use molds are an option-- this could have saved me a lot of time since it was hard to print parts
+- Multi-DOF actuators are controllable and give a very complex motion. When multiple actuators are combined, it is likely that very complex behavior could be achieved. Smaller and more of these actuators definitely warrants exploration in the future. As well as a similar design using cable actuation. 
 
 
 #### Works Cited
