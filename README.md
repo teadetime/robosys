@@ -3,7 +3,7 @@
 
 ### Abstract
 ---
-This project seeks to make a single robotic finger that can be controlled in any direction. This finger will utilize a 3 chamber design as demonstrated in the cited papers. This actuator will be made up of 3 different air chambers and will be wrapped with a rope of some sort. This wrapping will keep the actuator from expanding as it is inflated and will force the actuator to bend. The actuator's goal is to be able to extend as well as bend/curl along any direction. My original plan was to build two different models using pneumatic artificial muscles in addition to a custom silicon molded actuator. Unfortunately, the nylon sheathing I got was too small for the balloons to inflate. 
+This project describes how a robotic finger can be created that can be controlled in any direction. This finger utilizes a 3 air-chamber design as demonstrated in previous research [1],[2]. As each chamber is infalted it causes a bending motion opposite of the chamber location. This actuator contains 3 different air chambers and will be wrapped in a material. This material keeps the actuator from expanding as it is inflated and will force the actuator to bend. The actuator's goal is to be able to extend as well as bend/curl along any direction. This is possible as different amounts of pressure in each chamber cause the the actuator to bend in different directions and amounts 
 
 This actuator will fall into the fiber-reinforced-actuator group, as the entire structure will be wrapped in an inextricable layer. There will be three controllable chambers and varying the pressure in each of them relative to the others should allow for curling motion in any direction relative to its nominal direction.
 
@@ -15,6 +15,7 @@ The purpose of this project is to determine the abilities of actuators and their
 I opted to design the entire actuator out of a single piece of silicon. This meant that this was insanely tricky to mold as there were many internal angles and I do not have access to a 3D printer with dissolvable filament. I designed a 4 step mold process in which the core of the actuator is molded and then the edges are molded around that.
 
 I used Onshape for the first time and things went fairly smoothly. Here you can see part of the mold used to make the inner tri-core:
+Onshape document is accessible [here](https://cad.onshape.com/documents/6f352d48eca456fbdbae621a/w/bccaf78306accf773a53e14a/e/fe7400344ade2ad432e31a1a)
 ![cad](/imgs/finger/cad.png)
 
 Notable design considerations:
@@ -94,8 +95,12 @@ When converted to kPA, these values are all less than 35 kPa. This is less than 
 The actuator is easiest to actuate along one of the 3 cardinal directions. This actuator has roughly a 2” reach in every direction. When all chambers are inflated it can extend roughly 25% of its length. I have not pushed the limits on this actuator as I don't want it to pop -- it is likely that higher pressures, bends, and extensions could be achieved. 
 
 
-### Lessons Learned
+### Reflectiom Lessons Learned
 ---
+This project managed to mostly fulfill my learning goals. I was really interestd in seeing how something that could be made that lended itself to fine control. I was successful in making an actuator that is a perfect example of such a system. It responds consistently to the same amounts of pressure and has a complex motion (3dof) that requires control for it to be useful. Unforunately I was unable to meet my learning goal of controlling this actuator with an arduino()I didn't have enough pumps/valves. This is an area that I would like to explore in future projects. I experienced firsthand how time intensive making these actuators was and how it was hardifficult to make two actuators that responded exactly the same to the same inputs/ This was helpful to realize and helps me understand why there are not a wealth of pneumatic/inflating actuators out there.
+
+
+Other Takeaways:
 - Molding is hard and mold complexity shoul dbe minimized (molding and mold design took 90% of my time)
 - Circular molds are especially difficult
 - 3d printing isn’t always the answer, A cardboard mold could have been made as well and sped up my process
@@ -104,7 +109,7 @@ The actuator is easiest to actuate along one of the 3 cardinal directions. This 
 
 
 #### Works Cited
- https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=131850&tag=1
+[1] K. Suzumori, S. Iikura and H. Tanaka, "Development of flexible microactuator and its applications to robotic mechanisms," Proceedings. 1991 IEEE International Conference on Robotics and Automation, Sacramento, CA, USA, 1991, pp. 1622-1627 vol.2, doi: 10.1109/ROBOT.1991.131850.
  
- https://www.mdpi.com/2076-0825/8/2/32.
+[2] Kawamura, S.; Sudani, M.; Deng, M.; Noge, Y.; Wakimoto, S. Modeling and System Integration for a Thin Pneumatic Rubber 3-DOF Actuator. Actuators 2019, 8, 32. https://doi.org/10.3390/act8020032 
 
